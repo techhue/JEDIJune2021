@@ -9,5 +9,9 @@ public class Hello {
     public void helloWord() {
         System.out.println("Hello, World!");
     }
+
+    public void greeting(String name) {
+        System.out.println("Hey, How are you doing?." +  name);
+    }
 }
 
